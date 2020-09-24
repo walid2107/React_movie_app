@@ -1,0 +1,136 @@
+body {
+  background: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/dark-red-background-image-sandra-johnson.jpg");
+}
+.movie-app {
+  max-width: 900px;
+  margin: 20px auto;
+  font-family: "Oxanium", cursive;
+  color: rgba(250, 187, 0, 1);
+}
+.movie-app-header {
+  display: flex;
+  justify-content: space-between;
+}
+.title-filter {
+  height: 50px;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.title-filter-text {
+  flex: 1;
+  border: 2px solid black;
+  background-color: rgba(199, 171, 82, 0.2);
+  color: rgba(250, 187, 0, 1);
+  padding: 10px;
+}
+.title-filter-text::placeholder {
+  color: rgba(250, 187, 0, 0.6);
+}
+.title-filter-button {
+  border: 2px solid black;
+  border-left: none;
+  padding: 0 10px;
+  color: rgba(250, 187, 0, 1);
+  background-color: rgba(199, 171, 82, 0.2);
+}
+.rating-filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px;
+  justify-content: center;
+}
+.rating-filter-text {
+  font-size: 0.8em;
+}
+.movie-app-main {
+  margin-top: 20px;
+}
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.movie-card,
+.new-movie-card {
+  border: 2px solid black;
+  width: 200px;
+  height: 350px;
+  position: relative;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(199, 171, 82, 0.2);
+}
+.movie-card:hover {
+  -webkit-box-shadow: 10px 10px 42px 0px rgba(250, 202, 8, 1);
+  -moz-box-shadow: 10px 10px 42px 0px rgba(250, 202, 8, 1);
+  box-shadow: 10px 10px 42px 0px rgba(250, 202, 8, 1);
+}
+.new-movie-card:hover {
+  -webkit-box-shadow: 10px 10px 42px 0px rgba(250, 202, 8, 1);
+  -moz-box-shadow: 10px 10px 42px 0px rgba(250, 202, 8, 1);
+  box-shadow: 10px 10px 42px 0px rgba(250, 202, 8, 1);
+}
+.movie-rating {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px 10px;
+  border: 2px solid black;
+  border-top: none;
+  border-right: none;
+}
+.movie-image {
+  background-image: url(https://www.mearto.com/assets/no-image-83a2b680abc7af87cfff7777d0756fadb9f9aecd5ebda5d34f8139668e0fc842.png);
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.movie-description {
+  border-top: 2px solid black;
+  text-align: center;
+  padding: 10px;
+}
+.movie-btns {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.movie-btns button {
+  background-color: transparent;
+  color: rgba(250, 187, 0, 1);
+}
+.trailerBtn {
+  margin: 10px 38px;
+  background-color: transparent;
+  color: rgba(250, 187, 0, 1);
+}
+.new-movie-card {
+  font-size: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* /////////////////////////////// */
+iframe {
+  max-width: 900px;
+  margin: 20px 181.5px;
+}
+
+form {
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+form input {
+  margin: 0px 40px;
+  text-align: center;
+  /* background: darkred;
+  color: rgba(250, 187, 0, 1); */
+}
+form button {
+  margin: 15px 40px;
+}
